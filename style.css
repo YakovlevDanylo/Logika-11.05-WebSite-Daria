@@ -1,0 +1,112 @@
+body {
+    font-family: sans-serif;
+    background-color: #ede2be;
+    margin:0;
+    padding: 0;
+}
+
+h1 {
+    color: #e366b7;
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    font-size: 60px;
+}
+
+header {
+    background-color: #AE8FB1;
+}
+
+nav {
+    font-size: 34px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 40px 0 40px;
+}
+
+.logo-info {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center; 
+
+}
+
+.logo-info img {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+.main-info {
+    width: 500px;
+    border: 7px dashed  black;
+    margin:50px auto;
+    text-align: center;
+}
+
+.main-info p {
+    font-size: 30px;
+}
+
+.shop {
+    margin:0 auto;
+    width: 700px;
+}
+
+.product {
+    width: 700px;
+    height: 850px;
+    background-color: #BEDFFF;
+    border-radius: 50px;
+    border: 7px dashed  black;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.product img {
+    width: 550px;
+    height: 625px;
+}
+
+.product p{
+    font-size: 24px;
+}
+
+.product a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px 40px;
+    background-color: #434E74;
+    color: white;
+    border-radius: 20px;
+}
+
+.product a:hover {
+    background-color: #AE8FB1;
+    border: 3px dashed black;
+}
+
+footer {
+    background-color: #AE8FB1;
+}
+
+footer p {
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+    color: #e366b7;
+    font-size: 42px;
+}
+
+p a {
+    color: #e366b7;
+    text-decoration: none;
+}
+
+
